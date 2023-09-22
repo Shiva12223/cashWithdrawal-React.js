@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 50px;
+  font-family: 'Roboto';
+}
+.card-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+}
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+  width: 100%;
+}
+.profile-pic {
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  color: #7c3aed;
+  font-size: 20px;
+}
+.user-name {
+  color: #c7d2fe;
+  font-weight: 300;
+  font-size: 23px;
+}
+.amount-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.check-amount-title {
+  align-self: flex-start;
+  color: #585076;
+  font-size: 25px;
+}
+.amount-title {
+  color: #d4d2db;
+}
+.amount-title-rupees {
+  color: #585076;
+  font-size: 13px;
+  font-weight: bold;
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+}
+.withdraw-title {
+  color: #d4d2db;
+  margin-bottom: 0px;
+}
+.choose-sum-title {
+  color: #585076;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.amount-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+  list-style: none;
+  padding: 0px;
+}
+.btn {
+  height: 40px;
+  width: 160px;
+  border-radius: 5px;
+  border: none;
+  background-color: #382f5a;
+  border: 1px solid #d4d2db;
+  font-size: 20px;
+  color: #d4d2db;
+margin-top: 10px;  
+}
